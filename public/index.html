@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+<link rel="stylesheet"  type="text/css" href="stylesheets/style.css"></link>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap" rel="stylesheet">
+ <script src="javascripts/index.js"></script>
+<head>
+    <title>Blind Love</title>
+</head>
+<body>
+    <ul><li><a class="active" href="index.html">Home</a></li>
+  <li><a href="survey.html">Take the survey</a></li>
+   <li style="float:right"><a class="active" href="#about">About</a></li>
+</ul>
+<br><br>
+    <h1><img id="logo" src="images/logo.png" alt="Logo"> Welcome to Blind Love</h1>
+    <h2>Are you done with dating apps?</h2>
+    <p>Are you some who dreams of true love? A soulmate to spend your life with till death do part?
+        The you are just in the right place!
+        
+    </p>
+    <div id="register"> 
+       
+        <form id="registrationForm" validate>
+       
+            <h3>Join the waiting list today!</h3>
+  <label for="fname" >Your name:</label><br>
+  <input type="text" id="fname"required name="fname"><br>
+   <label for="age">Your Age:</label><br>
+  <input type="number" required id="age" name="age"><br>
+  <label for="gender">Gender:</label>
+<select id="gender" name="gender" required>
+  <option value="Male">Male</option>
+  <option value="Female">Female</option>
+  <option value="Others"  selected="selected">Others</option>
+</select><br>
+    <label for="email" >Email:</label><br>
+  <input type="email" required id="email" name="email"><br>
+<button  type="button" onclick="FormSubmit()">Submit</button><br>
+</form>
+  </div>
+<br><br>
+<p id="about" > 
+    <b>About</b><br>
+    For queries contact blindloveforlive@gmail.com
+    
+   
+</body>
+
+</html>

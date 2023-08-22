@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(255, 255, 255);
+   font-family: 'Bricolage Grotesque', sans-serif;
+   
+}
+#logo {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+}
+h1 {
+    color: rgb(241, 151, 184);
+    text-align: center;
+}
+h2 {
+    color: rgb(208, 88, 132);
+    text-align: center;
+}
+h3 {
+    color: rgb(137, 67, 155);
+    text-align: center;
+}
+
+p {
+   
+    font-size: 20px;
+    color:rgb(128, 79, 147);
+    border: 2px solid rgb(219, 113, 152);
+  outline: rgb(241, 151, 184) solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+  border-radius: 1px;
+}
+
+form {
+    font-size: 20px;
+    color:rgb(128, 79, 147);
+     border: 2px solid rgb(219, 113, 152);
+  outline: rgb(241, 151, 184) solid 10px;
+  margin: auto;  
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 1px;
+}
+
+input[type=text],input[type=number], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#option1,#option2,#option3,#option4{
+  width: 100%;
+  background-color: #edc9e9;
+  color: rgb(97, 74, 95);
+   padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+   font-size: 20px;
+   font-weight: bold;
+}
+#flex{
+     margin-top: inherit;
+     width: 100%;
+     display:list-item
+}
+#question{
+    font-size: x-large;
+    font-weight: bolder;
+}
+#registrationForm{
+    visibility: visible;
+}
+#questionaire {
+    visibility: hidden;
+    width: 100%;
+    margin-top: inherit;
+    text-align:center;
+  font-weight: bold;
+  
+   color:rgb(128, 79, 147);
+}
+
+
+.checkmark {
+  top: 0;
+  left: 50px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  
+}
+option,select {
+      width: 100%;
+  background-color: #ffffff;
+  color: rgb(137, 67, 155);
+    border: 1px solid #ccc;
+  border-radius: 4px;
+   padding: 12px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+
+input[type=submit],button {
+  width: 100%;
+  background-color: #84e287;
+  color: white;
+   padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+   font-size: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+ul {
+      position: fixed;
+  list-style-type: none;
+  top: 0;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #564048;
+}
+
+li {
+  float: left;
+ font-weight: bold;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:solid;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:rgb(212, 164, 182);
+   color: rgb(70, 52, 65);
+}
+.active {
+  background-color:rgb(208, 88, 132);
+ 
+}
+
+
